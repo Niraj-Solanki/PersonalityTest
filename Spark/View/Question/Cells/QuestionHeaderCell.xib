@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="QuestionHeaderCell" customModule="Spark" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" placeholderIntrinsicWidth="382" placeholderIntrinsicHeight="104" translatesAutoresizingMaskIntoConstraints="NO" id="dem-gq-oNa">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CbH-X3-5Dy">
+                            <rect key="frame" x="16" y="16" width="382" height="28"/>
+                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="16"/>
+                            <color key="textColor" name="NG900"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="NG300"/>
+                    <constraints>
+                        <constraint firstItem="CbH-X3-5Dy" firstAttribute="top" secondItem="dem-gq-oNa" secondAttribute="top" constant="16" id="PHn-2b-1Qx"/>
+                        <constraint firstAttribute="trailing" secondItem="CbH-X3-5Dy" secondAttribute="trailing" constant="16" id="PzC-Tf-Tjz"/>
+                        <constraint firstAttribute="bottom" secondItem="CbH-X3-5Dy" secondAttribute="bottom" constant="16" id="dsK-jS-vU8"/>
+                        <constraint firstItem="CbH-X3-5Dy" firstAttribute="leading" secondItem="dem-gq-oNa" secondAttribute="leading" constant="16" id="lVC-10-USF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" name="NG200"/>
+            <constraints>
+                <constraint firstItem="dem-gq-oNa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EQL-ap-u5R"/>
+                <constraint firstAttribute="trailing" secondItem="dem-gq-oNa" secondAttribute="trailing" id="eau-bG-nde"/>
+                <constraint firstAttribute="bottom" secondItem="dem-gq-oNa" secondAttribute="bottom" id="idn-5v-OgC"/>
+                <constraint firstItem="dem-gq-oNa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rdp-lL-wDb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="titleLabel" destination="CbH-X3-5Dy" id="zzx-9x-qDv"/>
+            </connections>
+            <point key="canvasLocation" x="98.550724637681171" y="-203.57142857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="NG200">
+            <color red="0.9649999737739563" green="0.96899998188018799" blue="0.98000001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NG300">
+            <color red="0.88999998569488525" green="0.91399997472763062" blue="0.93300002813339233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NG900">
+            <color red="0.14100000262260437" green="0.21199999749660492" blue="0.28200000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

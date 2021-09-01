@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CategoryViewController" customModule="Spark" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="ycD-d0-rZL" id="haX-et-aaA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUX-ig-Jgj" userLabel="mainView">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFz-S6-hIB" customClass="NSNavigationBar" customModule="Spark" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="68" id="U8b-NN-nEC"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Personality Test"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="hideLeftIcon" value="YES"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="hideRightIcon" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="380-Kl-uLQ">
+                            <rect key="frame" x="20" y="88" width="374" height="168"/>
+                            <string key="text">A personality test is a tool used to assess human personality. Personality testing and assessment refer to techniques designed to measure the characteristic patterns of traits that people exhibit across various situations. Personality is something that we informally assess and describe every day.</string>
+                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                            <color key="textColor" name="NG700"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ycD-d0-rZL">
+                            <rect key="frame" x="0.0" y="276" width="414" height="522"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="TI4-rf-jxW"/>
+                                <outlet property="delegate" destination="-1" id="KZT-aR-l90"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ycD-d0-rZL" secondAttribute="trailing" id="0fe-bf-Mud"/>
+                        <constraint firstItem="380-Kl-uLQ" firstAttribute="leading" secondItem="QUX-ig-Jgj" secondAttribute="leading" constant="20" id="8sX-WP-ZXb"/>
+                        <constraint firstItem="iFz-S6-hIB" firstAttribute="leading" secondItem="QUX-ig-Jgj" secondAttribute="leading" id="Czc-TH-5HH"/>
+                        <constraint firstAttribute="trailing" secondItem="iFz-S6-hIB" secondAttribute="trailing" id="I6U-PI-UwU"/>
+                        <constraint firstItem="iFz-S6-hIB" firstAttribute="top" secondItem="QUX-ig-Jgj" secondAttribute="top" id="L0u-TC-4wX"/>
+                        <constraint firstItem="ycD-d0-rZL" firstAttribute="top" secondItem="380-Kl-uLQ" secondAttribute="bottom" constant="20" id="UVE-Xh-m16"/>
+                        <constraint firstAttribute="trailing" secondItem="380-Kl-uLQ" secondAttribute="trailing" constant="20" id="iRF-rg-Uzo"/>
+                        <constraint firstItem="380-Kl-uLQ" firstAttribute="top" secondItem="iFz-S6-hIB" secondAttribute="bottom" constant="20" id="ppq-mL-Pmg"/>
+                        <constraint firstAttribute="bottom" secondItem="ycD-d0-rZL" secondAttribute="bottom" constant="20" id="qxz-JZ-pGV"/>
+                        <constraint firstItem="ycD-d0-rZL" firstAttribute="leading" secondItem="QUX-ig-Jgj" secondAttribute="leading" id="wTu-xc-43u"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="QUX-ig-Jgj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="HY6-P8-2q6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="QUX-ig-Jgj" secondAttribute="bottom" id="YfN-Wi-NDa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QUX-ig-Jgj" secondAttribute="trailing" id="o9V-6F-Kwc"/>
+                <constraint firstItem="QUX-ig-Jgj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ssE-6G-yNC"/>
+            </constraints>
+            <point key="canvasLocation" x="121.73913043478262" y="93.75"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="NG700">
+            <color red="0.29399999976158142" green="0.37999999523162842" blue="0.46700000762939453" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
