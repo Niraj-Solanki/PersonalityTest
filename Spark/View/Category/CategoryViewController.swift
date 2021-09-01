@@ -11,9 +11,10 @@ class CategoryViewController: UIViewController, Loader {
     
     //MARK:- Outlets
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var customNavigationBar: NSNavigationBar!
     
     //MARK:- Properties
-    private var viewModel: CategoryViewModelProtocol
+    var viewModel: CategoryViewModelProtocol
     
     //MARK:- LifeCycle
     init(_ viewModel: CategoryViewModelProtocol) {

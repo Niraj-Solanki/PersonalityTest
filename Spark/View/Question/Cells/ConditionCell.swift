@@ -12,6 +12,7 @@ class ConditionCell: UITableViewCell {
     @IBOutlet weak var sliderBar: UISlider!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var selectedValueLabel: UILabel!
+    
     //MARK: - Properties
     static var nib: UINib {
         return UINib(nibName: identifier, bundle: nil)

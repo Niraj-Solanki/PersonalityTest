@@ -14,7 +14,7 @@ class QuestionsViewController: UIViewController, Loader {
     @IBOutlet weak var customNavigationBar: NSNavigationBar!
     
     //MARK:- Properties
-    private var viewModel: QuestionsViewModelProtocol
+    var viewModel: QuestionsViewModelProtocol
     
     //MARK:- Life Cycle
     init(_ viewModel: QuestionsViewModelProtocol) {

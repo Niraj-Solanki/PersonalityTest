@@ -6,7 +6,12 @@
 //
 
 import UIKit
-class NetworkManager {
+
+protocol NetworkManagerProtocol {
+    func request<T:Codable>(_ request: RequestProtocol,success:@escaping((T)->()),failure:@escaping((Error)->()))
+}
+
+class NetworkManager : NetworkManagerProtocol {
     
     /// Generic Request Method
     /// - Parameters:

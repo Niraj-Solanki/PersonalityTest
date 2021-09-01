@@ -14,12 +14,12 @@ enum APIRequest {
 
 extension APIRequest: RequestProtocol {
     // Can be used for Server API
-    var baseUrl: String {
+    var baseURL: URL {
         switch  self {
         case .category:
-            return ""
+            return URL(string: "")!
         case .question(_ ):
-            return ""
+            return URL(string: "")!
         }
     }
     

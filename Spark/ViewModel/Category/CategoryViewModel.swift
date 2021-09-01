@@ -16,7 +16,7 @@ enum ObserverType {
 protocol CategoryViewModelProtocol {
     var observable: ((ObserverType)->Void)? { get set }
     var categories: [Category] { get }
-    var networkManager: NetworkManager { get }
+    var networkManager: NetworkManagerProtocol { get }
     
     func showCategoryQuestions(of category: String)
     func loadData()
@@ -25,7 +25,7 @@ protocol CategoryViewModelProtocol {
 class CategoryViewModel : CategoryViewModelProtocol {
   
     //MARK:- Properties
-    internal let networkManager = NetworkManager()
+    internal let networkManager: NetworkManagerProtocol
     internal var observable: ((ObserverType) -> Void)?
     internal var categories: [Category] = [] {
         didSet {
@@ -35,7 +35,8 @@ class CategoryViewModel : CategoryViewModelProtocol {
     var requestProtocol: RequestProtocol
     
     //MARK:- Life Cycle
-    init(_ requestProtocol: RequestProtocol) {
+    init(networkManager: NetworkManagerProtocol = NetworkManager(),_ requestProtocol: RequestProtocol) {
+        self.networkManager = networkManager
         self.requestProtocol = requestProtocol
     }
     

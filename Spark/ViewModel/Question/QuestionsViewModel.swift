@@ -12,7 +12,7 @@ protocol QuestionsViewModelProtocol {
     var questions: [Questions] { get }
     var title: String { get }
     var noOfSection: Int { get }
-    var networkManager: NetworkManager { get }
+    var networkManager: NetworkManagerProtocol { get }
     func loadData()
     
     func performSelection(indexPath: IndexPath)
@@ -30,7 +30,7 @@ enum QuestionViewCellType {
 
 final class QuestionsViewModel: QuestionsViewModelProtocol {
     var observable: ((ObserverType) -> Void)?
-    var networkManager = NetworkManager()
+    var networkManager: NetworkManagerProtocol
     var requestProtocol: RequestProtocol
     var category: Category
     
@@ -40,7 +40,8 @@ final class QuestionsViewModel: QuestionsViewModelProtocol {
         }
     }
     
-    init(_ requestProtocol: RequestProtocol,_ category: Category) {
+    init(networkManager: NetworkManagerProtocol = NetworkManager(), _ requestProtocol: RequestProtocol,_ category: Category) {
+        self.networkManager = networkManager
         self.requestProtocol = requestProtocol
         self.category = category
     }

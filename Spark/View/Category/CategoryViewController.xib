@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CategoryViewController" customModule="Spark" customModuleProvider="target">
             <connections>
+                <outlet property="customNavigationBar" destination="iFz-S6-hIB" id="Oyd-K7-gG0"/>
                 <outlet property="tableView" destination="ycD-d0-rZL" id="haX-et-aaA"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

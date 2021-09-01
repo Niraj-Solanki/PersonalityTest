@@ -21,8 +21,6 @@
 		860348BD26DACFA300BAC929 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348BB26DACFA300BAC929 /* AppNavigation.swift */; };
 		860348BE26DACFA300BAC929 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348BB26DACFA300BAC929 /* AppNavigation.swift */; };
 		860348C026DAD02400BAC929 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348BF26DAD02400BAC929 /* Destination.swift */; };
-		860348C126DAD02400BAC929 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348BF26DAD02400BAC929 /* Destination.swift */; };
-		860348C226DAD02400BAC929 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348BF26DAD02400BAC929 /* Destination.swift */; };
 		860348C426DAD21200BAC929 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348C326DAD21200BAC929 /* CategoryViewModel.swift */; };
 		860348C526DAD21200BAC929 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348C326DAD21200BAC929 /* CategoryViewModel.swift */; };
 		860348C626DAD21200BAC929 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348C326DAD21200BAC929 /* CategoryViewModel.swift */; };
@@ -39,14 +37,10 @@
 		860348DE26DAEF9100BAC929 /* CategoryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860348D926DAEF9100BAC929 /* CategoryTableCell.xib */; };
 		860348DF26DAEF9100BAC929 /* CategoryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860348D926DAEF9100BAC929 /* CategoryTableCell.xib */; };
 		860348E226DAF74100BAC929 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E026DAF74100BAC929 /* QuestionsViewController.swift */; };
-		860348E326DAF74100BAC929 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E026DAF74100BAC929 /* QuestionsViewController.swift */; };
-		860348E426DAF74100BAC929 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E026DAF74100BAC929 /* QuestionsViewController.swift */; };
 		860348E526DAF74100BAC929 /* QuestionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860348E126DAF74100BAC929 /* QuestionsViewController.xib */; };
 		860348E626DAF74100BAC929 /* QuestionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860348E126DAF74100BAC929 /* QuestionsViewController.xib */; };
 		860348E726DAF74100BAC929 /* QuestionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860348E126DAF74100BAC929 /* QuestionsViewController.xib */; };
 		860348E926DAF7C800BAC929 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E826DAF7C800BAC929 /* QuestionsViewModel.swift */; };
-		860348EA26DAF7C800BAC929 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E826DAF7C800BAC929 /* QuestionsViewModel.swift */; };
-		860348EB26DAF7C800BAC929 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E826DAF7C800BAC929 /* QuestionsViewModel.swift */; };
 		860348EF26DAF8A300BAC929 /* NSNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348EE26DAF8A300BAC929 /* NSNavigationBar.swift */; };
 		860348F326DAF8AF00BAC929 /* NSNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860348F226DAF8AF00BAC929 /* NSNavigationBar.xib */; };
 		860348F926DB087400BAC929 /* OptionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348F726DB087400BAC929 /* OptionTableCell.swift */; };
@@ -89,6 +83,32 @@
 		86B57CA026DFA684004EDCD6 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9F26DFA684004EDCD6 /* Loader.swift */; };
 		86B57CA226DFAF0A004EDCD6 /* OptionCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57CA126DFAF0A004EDCD6 /* OptionCellModel.swift */; };
 		86B57CA426DFAF28004EDCD6 /* SubmitCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57CA326DFAF28004EDCD6 /* SubmitCellModel.swift */; };
+		86C9793826DFB867002687F9 /* QuestionViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9793726DFB867002687F9 /* QuestionViewControllerTest.swift */; };
+		86C9793A26DFB986002687F9 /* MockAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9793926DFB986002687F9 /* MockAPIRequest.swift */; };
+		86C9793D26DFBE96002687F9 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9793C26DFBE96002687F9 /* MockNetworkManager.swift */; };
+		86C9793E26DFCA8A002687F9 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E826DAF7C800BAC929 /* QuestionsViewModel.swift */; };
+		86C9793F26DFCA94002687F9 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E026DAF74100BAC929 /* QuestionsViewController.swift */; };
+		86C9794026DFCADD002687F9 /* OptionCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57CA126DFAF0A004EDCD6 /* OptionCellModel.swift */; };
+		86C9794126DFCAE3002687F9 /* SubmitCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57CA326DFAF28004EDCD6 /* SubmitCellModel.swift */; };
+		86C9794226DFCAF5002687F9 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9F26DFA684004EDCD6 /* Loader.swift */; };
+		86C9794326DFCB05002687F9 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9793C26DFBE96002687F9 /* MockNetworkManager.swift */; };
+		86C9794426DFCB0D002687F9 /* NSNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348EE26DAF8A300BAC929 /* NSNavigationBar.swift */; };
+		86C9794526DFCB14002687F9 /* ConstantKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9926DF79C9004EDCD6 /* ConstantKeys.swift */; };
+		86C9794726DFCC20002687F9 /* SubmitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9526DF5D1A004EDCD6 /* SubmitCell.swift */; };
+		86C9794826DFCC26002687F9 /* ConditionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9B26DF993E004EDCD6 /* ConditionCell.swift */; };
+		86C9794926DFCC97002687F9 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348BF26DAD02400BAC929 /* Destination.swift */; };
+		86C9794A26DFCCA5002687F9 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348BF26DAD02400BAC929 /* Destination.swift */; };
+		86C9794B26DFCCA9002687F9 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E026DAF74100BAC929 /* QuestionsViewController.swift */; };
+		86C9794C26DFCCCD002687F9 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9F26DFA684004EDCD6 /* Loader.swift */; };
+		86C9794D26DFCCDA002687F9 /* OptionCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57CA126DFAF0A004EDCD6 /* OptionCellModel.swift */; };
+		86C9794E26DFCCE1002687F9 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348E826DAF7C800BAC929 /* QuestionsViewModel.swift */; };
+		86C9794F26DFCCEB002687F9 /* NSNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860348EE26DAF8A300BAC929 /* NSNavigationBar.swift */; };
+		86C9795026DFCCF7002687F9 /* SubmitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9526DF5D1A004EDCD6 /* SubmitCell.swift */; };
+		86C9795126DFCCFC002687F9 /* ConditionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9B26DF993E004EDCD6 /* ConditionCell.swift */; };
+		86C9795226DFCD1F002687F9 /* SubmitCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57CA326DFAF28004EDCD6 /* SubmitCellModel.swift */; };
+		86C9795326DFCD36002687F9 /* ConstantKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9926DF79C9004EDCD6 /* ConstantKeys.swift */; };
+		86C9795426DFDDFB002687F9 /* MockAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9793926DFB986002687F9 /* MockAPIRequest.swift */; };
+		86C9795626DFE4F5002687F9 /* CategoryViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9795526DFE4F5002687F9 /* CategoryViewControllerTest.swift */; };
 		B1F0AEB8E165CBA724C9A8FA /* Pods_Spark_SparkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83C85F7EDD00B10CE2C8D8C /* Pods_Spark_SparkUITests.framework */; };
 		D32F0A750F3D6DCC01AB6DA1 /* Pods_Spark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5655A4731F94B54EFBA252BB /* Pods_Spark.framework */; };
 /* End PBXBuildFile section */
@@ -158,6 +178,10 @@
 		86B57C9F26DFA684004EDCD6 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		86B57CA126DFAF0A004EDCD6 /* OptionCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCellModel.swift; sourceTree = "<group>"; };
 		86B57CA326DFAF28004EDCD6 /* SubmitCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitCellModel.swift; sourceTree = "<group>"; };
+		86C9793726DFB867002687F9 /* QuestionViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewControllerTest.swift; sourceTree = "<group>"; };
+		86C9793926DFB986002687F9 /* MockAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIRequest.swift; sourceTree = "<group>"; };
+		86C9793C26DFBE96002687F9 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		86C9795526DFE4F5002687F9 /* CategoryViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewControllerTest.swift; sourceTree = "<group>"; };
 		A83C85F7EDD00B10CE2C8D8C /* Pods_Spark_SparkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spark_SparkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16335CF9FABC361E21F1E85 /* Pods-Spark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spark.debug.xcconfig"; path = "Target Support Files/Pods-Spark/Pods-Spark.debug.xcconfig"; sourceTree = "<group>"; };
 		EE8C1F40075E12CA88BE9EC8 /* Pods-SparkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkTests.release.xcconfig"; path = "Target Support Files/Pods-SparkTests/Pods-SparkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -420,8 +444,11 @@
 		869AAAA526D951E000A75CF0 /* SparkTests */ = {
 			isa = PBXGroup;
 			children = (
+				86C9793B26DFBE81002687F9 /* MockNetwokLayer */,
 				869AAAA626D951E000A75CF0 /* SparkTests.swift */,
 				869AAAA826D951E000A75CF0 /* Info.plist */,
+				86C9793726DFB867002687F9 /* QuestionViewControllerTest.swift */,
+				86C9795526DFE4F5002687F9 /* CategoryViewControllerTest.swift */,
 			);
 			path = SparkTests;
 			sourceTree = "<group>";
@@ -433,6 +460,15 @@
 				869AAAB326D951E000A75CF0 /* Info.plist */,
 			);
 			path = SparkUITests;
+			sourceTree = "<group>";
+		};
+		86C9793B26DFBE81002687F9 /* MockNetwokLayer */ = {
+			isa = PBXGroup;
+			children = (
+				86C9793926DFB986002687F9 /* MockAPIRequest.swift */,
+				86C9793C26DFBE96002687F9 /* MockNetworkManager.swift */,
+			);
+			path = MockNetwokLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -716,8 +752,10 @@
 				86B57CA226DFAF0A004EDCD6 /* OptionCellModel.swift in Sources */,
 				86B57C9A26DF79C9004EDCD6 /* ConstantKeys.swift in Sources */,
 				86B57CA026DFA684004EDCD6 /* Loader.swift in Sources */,
+				86C9794326DFCB05002687F9 /* MockNetworkManager.swift in Sources */,
 				8603490026DB106100BAC929 /* QuestionHeaderCell.swift in Sources */,
 				86B57C9726DF5D1A004EDCD6 /* SubmitCell.swift in Sources */,
+				86C9795426DFDDFB002687F9 /* MockAPIRequest.swift in Sources */,
 				86B57C9D26DF993E004EDCD6 /* ConditionCell.swift in Sources */,
 				8603490A26DB783500BAC929 /* RequestProtocol.swift in Sources */,
 				860348D426DAE0AA00BAC929 /* PersonalityTestModel.swift in Sources */,
@@ -728,21 +766,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C9794426DFCB0D002687F9 /* NSNavigationBar.swift in Sources */,
 				860348BD26DACFA300BAC929 /* AppNavigation.swift in Sources */,
+				86C9794026DFCADD002687F9 /* OptionCellModel.swift in Sources */,
+				86C9793D26DFBE96002687F9 /* MockNetworkManager.swift in Sources */,
 				860348FA26DB087400BAC929 /* OptionTableCell.swift in Sources */,
+				86C9793A26DFB986002687F9 /* MockAPIRequest.swift in Sources */,
+				86C9794226DFCAF5002687F9 /* Loader.swift in Sources */,
+				86C9794726DFCC20002687F9 /* SubmitCell.swift in Sources */,
 				860348B526DACDB600BAC929 /* CategoryViewController.swift in Sources */,
 				8603491426DB832100BAC929 /* PersonalityTestRequest.swift in Sources */,
-				860348E326DAF74100BAC929 /* QuestionsViewController.swift in Sources */,
+				86C9793826DFB867002687F9 /* QuestionViewControllerTest.swift in Sources */,
 				860348C526DAD21200BAC929 /* CategoryViewModel.swift in Sources */,
-				860348C126DAD02400BAC929 /* Destination.swift in Sources */,
 				8603490B26DB783500BAC929 /* RequestProtocol.swift in Sources */,
 				860348D526DAE0AA00BAC929 /* PersonalityTestModel.swift in Sources */,
+				86C9794826DFCC26002687F9 /* ConditionCell.swift in Sources */,
 				869AAAA726D951E000A75CF0 /* SparkTests.swift in Sources */,
+				86C9793E26DFCA8A002687F9 /* QuestionsViewModel.swift in Sources */,
+				86C9794926DFCC97002687F9 /* Destination.swift in Sources */,
+				86C9794526DFCB14002687F9 /* ConstantKeys.swift in Sources */,
 				860348DB26DAEF9100BAC929 /* CategoryTableCell.swift in Sources */,
+				86C9795626DFE4F5002687F9 /* CategoryViewControllerTest.swift in Sources */,
+				86C9793F26DFCA94002687F9 /* QuestionsViewController.swift in Sources */,
 				8603490126DB106100BAC929 /* QuestionHeaderCell.swift in Sources */,
+				86C9794126DFCAE3002687F9 /* SubmitCellModel.swift in Sources */,
 				8603491826DB847000BAC929 /* NetworkManager.swift in Sources */,
 				8603491026DB7E6300BAC929 /* DataManager.swift in Sources */,
-				860348EA26DAF7C800BAC929 /* QuestionsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,18 +802,25 @@
 				860348BE26DACFA300BAC929 /* AppNavigation.swift in Sources */,
 				860348FB26DB087400BAC929 /* OptionTableCell.swift in Sources */,
 				860348B626DACDB600BAC929 /* CategoryViewController.swift in Sources */,
+				86C9794A26DFCCA5002687F9 /* Destination.swift in Sources */,
+				86C9794F26DFCCEB002687F9 /* NSNavigationBar.swift in Sources */,
+				86C9795126DFCCFC002687F9 /* ConditionCell.swift in Sources */,
 				8603491526DB832100BAC929 /* PersonalityTestRequest.swift in Sources */,
-				860348E426DAF74100BAC929 /* QuestionsViewController.swift in Sources */,
 				860348C626DAD21200BAC929 /* CategoryViewModel.swift in Sources */,
-				860348C226DAD02400BAC929 /* Destination.swift in Sources */,
 				8603490C26DB783500BAC929 /* RequestProtocol.swift in Sources */,
+				86C9795226DFCD1F002687F9 /* SubmitCellModel.swift in Sources */,
 				860348D626DAE0AA00BAC929 /* PersonalityTestModel.swift in Sources */,
+				86C9794B26DFCCA9002687F9 /* QuestionsViewController.swift in Sources */,
 				869AAAB226D951E000A75CF0 /* SparkUITests.swift in Sources */,
+				86C9795326DFCD36002687F9 /* ConstantKeys.swift in Sources */,
+				86C9794D26DFCCDA002687F9 /* OptionCellModel.swift in Sources */,
 				860348DC26DAEF9100BAC929 /* CategoryTableCell.swift in Sources */,
+				86C9795026DFCCF7002687F9 /* SubmitCell.swift in Sources */,
+				86C9794E26DFCCE1002687F9 /* QuestionsViewModel.swift in Sources */,
 				8603490226DB106100BAC929 /* QuestionHeaderCell.swift in Sources */,
 				8603491926DB847000BAC929 /* NetworkManager.swift in Sources */,
 				8603491126DB7E6300BAC929 /* DataManager.swift in Sources */,
-				860348EB26DAF7C800BAC929 /* QuestionsViewModel.swift in Sources */,
+				86C9794C26DFCCCD002687F9 /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
