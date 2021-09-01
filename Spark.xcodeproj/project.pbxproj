@@ -109,6 +109,7 @@
 		86C9795326DFCD36002687F9 /* ConstantKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B57C9926DF79C9004EDCD6 /* ConstantKeys.swift */; };
 		86C9795426DFDDFB002687F9 /* MockAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9793926DFB986002687F9 /* MockAPIRequest.swift */; };
 		86C9795626DFE4F5002687F9 /* CategoryViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9795526DFE4F5002687F9 /* CategoryViewControllerTest.swift */; };
+		86C9795826DFE935002687F9 /* CategoryViewControllerUItest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9795726DFE935002687F9 /* CategoryViewControllerUItest.swift */; };
 		B1F0AEB8E165CBA724C9A8FA /* Pods_Spark_SparkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83C85F7EDD00B10CE2C8D8C /* Pods_Spark_SparkUITests.framework */; };
 		D32F0A750F3D6DCC01AB6DA1 /* Pods_Spark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5655A4731F94B54EFBA252BB /* Pods_Spark.framework */; };
 /* End PBXBuildFile section */
@@ -182,6 +183,7 @@
 		86C9793926DFB986002687F9 /* MockAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIRequest.swift; sourceTree = "<group>"; };
 		86C9793C26DFBE96002687F9 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 		86C9795526DFE4F5002687F9 /* CategoryViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewControllerTest.swift; sourceTree = "<group>"; };
+		86C9795726DFE935002687F9 /* CategoryViewControllerUItest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewControllerUItest.swift; sourceTree = "<group>"; };
 		A83C85F7EDD00B10CE2C8D8C /* Pods_Spark_SparkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spark_SparkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16335CF9FABC361E21F1E85 /* Pods-Spark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spark.debug.xcconfig"; path = "Target Support Files/Pods-Spark/Pods-Spark.debug.xcconfig"; sourceTree = "<group>"; };
 		EE8C1F40075E12CA88BE9EC8 /* Pods-SparkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkTests.release.xcconfig"; path = "Target Support Files/Pods-SparkTests/Pods-SparkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -458,6 +460,7 @@
 			children = (
 				869AAAB126D951E000A75CF0 /* SparkUITests.swift */,
 				869AAAB326D951E000A75CF0 /* Info.plist */,
+				86C9795726DFE935002687F9 /* CategoryViewControllerUItest.swift */,
 			);
 			path = SparkUITests;
 			sourceTree = "<group>";
@@ -805,6 +808,7 @@
 				86C9794A26DFCCA5002687F9 /* Destination.swift in Sources */,
 				86C9794F26DFCCEB002687F9 /* NSNavigationBar.swift in Sources */,
 				86C9795126DFCCFC002687F9 /* ConditionCell.swift in Sources */,
+				86C9795826DFE935002687F9 /* CategoryViewControllerUItest.swift in Sources */,
 				8603491526DB832100BAC929 /* PersonalityTestRequest.swift in Sources */,
 				860348C626DAD21200BAC929 /* CategoryViewModel.swift in Sources */,
 				8603490C26DB783500BAC929 /* RequestProtocol.swift in Sources */,
